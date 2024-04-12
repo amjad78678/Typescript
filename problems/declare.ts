@@ -2,8 +2,16 @@
 
 
 
-declare var variableName: Type;
-declare function functionName(arg1: Type, arg2: Type): ReturnType;
-declare class ClassName {
-    // class members
+// declare var variableName: Type;
+// declare function functionName(arg1: Type, arg2: Type): ReturnType;
+// declare class ClassName {
+//     // class members
+// }
+
+
+function example <T>(num: T): T    {
+     
+    return num
 }
+
+example('amjad')
